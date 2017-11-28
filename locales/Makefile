@@ -1,6 +1,6 @@
 CFLAGS = -g -Wall -std=c11
 
-all: localize hu it de es sr fr
+all: localize hu it de es sr fr zh
 clean:
 	rm -f localize *.bin *.img
 
@@ -28,6 +28,9 @@ sr: localize applet
 fr: localize applet
 	cat strings.txt | ./localize fr ../applet/merged.img D013.020-fr.img
         "${MAKE}" D013.020-fr.bin
+zh: localize applet
+	cat strings.txt | ./localize zh ../applet/merged.img D013.020-zh.img
+        "${MAKE}" D013.020-zh.bin
 	
 flash-hu: hu
 	../md380-dfu upgrade D013.020-hu.bin
@@ -45,8 +48,11 @@ flash-sr: sr
 	../md380-dfu upgrade D013.020-sr.bin
 	
 flash-fr: fr
-      ../md380-dfu upgrade D013.020-fr.bin
-      
+	../md380-dfu upgrade D013.020-fr.bin
+	
+flash-zh: zh
+	../md380-dfu upgrade D013.020-zh.bin
+
 %.bin: %.img
 	../md380-fw --wrap $< $@
 run: test
