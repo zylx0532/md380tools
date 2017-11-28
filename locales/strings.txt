@@ -12,6 +12,7 @@ es Sin Programar
 it Non program.
 sr Prazno
 fr Non Program.
+zh \u672a\u77e5\u4fe1\u9053
 
 # 0xc53c0 28 13 Delete Entry?
 en Delete Entry?
@@ -20,6 +21,7 @@ es Eliminar reg?
 it Elimino reg?
 sr Brisi unos?
 fr Effacer Entree?
+zh \u5220\u9664\u6761\u76ee?
 
 # 0xc53dc 26 12 Radio Enable
 en Radio Enable
@@ -28,6 +30,7 @@ es Radio activa
 it Attiva radio
 sr Uklj. radio
 fr Activer Radio
+zh \u542f\u7528\u7535\u53f0
 
 # 0xc53f8 28 13 Radio Disable
 en Radio Disable
@@ -36,6 +39,7 @@ es Radio desact.
 it Disatt. radio
 sr Isklj. radio
 fr Desact. Radio
+zh \u7981\u7528\u7535\u53f0
 
 # 0xc5414 26 12 Edit Number:
 en Edit Number:
@@ -44,6 +48,7 @@ es Editar numero:
 it Edita numero:
 sr Izmeni broj
 fr Editer Numero:
+zh \u7f16\u8f91\u53f7\u7801:
 
 # 0xc5430 26 12 Text Message
 en Text Message
@@ -52,6 +57,7 @@ es Mensaje de Texto
 it SMS
 sr SMS
 fr Message Texte
+zh \u6587\u672c\u6d88\u606f
 
 # 0xc544c 26 12 Message Send
 en Message Send
@@ -60,6 +66,7 @@ es Mensaje enviado
 it Invio SMS
 sr SMS poslat
 fr Message envoye
+zh \u53d1\u9001\u6d88\u606f
 
 # 0xc5468 26 12 Radio Check:
 en Radio Check:
@@ -68,6 +75,7 @@ es Chequeo Radio
 it Verif. radio
 sr Radio prover
 fr Check Radio:
+zh \u901a\u4fe1\u68c0\u67e5:
 
 # 0xc5484 26 12 Target Radio
 en Target Radio
@@ -76,6 +84,7 @@ es Radio Destino
 it Destinatario
 sr Odrediste
 fr Destinataire
+zh Target Radio
 
 # 0xc54a0 28 13 Not Available
 en Not Available
@@ -84,10 +93,12 @@ es No Disponible
 it Non disponib.
 sr Nije dostupno
 fr Non disponible
+zh Not Available
 
 # 0xc54bc 28 13 Radio Enable:
 sr Ukljuci radio
 fr Activer radio
+
 
 # 0xc54d8 28 13 Firmware Ver.
 en Firmware Ver.
@@ -96,6 +107,7 @@ es Version FW
 it Versione FW
 sr Verzija FW
 fr Vers. Firmware
+zh Firmware Ver.
 
 # 0xc54f4 28 13 Batter Info
 en Batter Info
@@ -104,6 +116,7 @@ es Info Bateria
 it Info Batt.
 sr Bater. info
 fr Info Batterie
+zh Batter Info
 
 # 0xc5510 28 13 Private Alert
 es Alert Privada
@@ -124,6 +137,7 @@ es Numero Radio
 it Numero Radio
 sr Broj radija
 fr Numero Radio
+zh Radio Number
 
 # 0xc5564 26 12 Tones/Alerts
 en Tones/Alerts
@@ -132,6 +146,7 @@ es Tono/Alertas
 it Toni/Avvisi
 sr Tonovi/Alar.
 fr Tonalites/Alertes
+zh Tones/Alerts
 
 # 0xc5580 26 12 Intro Screen
 en Intro Screen
@@ -141,6 +156,7 @@ it Scherm. iniz.
 sr Uvodni ekran
 fr Ecran d intro
 
+
 # 0xc559c 28 13 LED Indicator
 en LED Indicator
 de LED Anzeige
@@ -148,12 +164,14 @@ es Indicador LED
 it Indic. LED
 sr LED indikator
 fr Indicateur LED
+zg LED Indicator
 
 # 0xc55b8 26 12 Site Roaming
 es Roaming Local
 it Roaming Locale
 sr Roaming
 fr Roaming de Site
+zh Roaming Local
 
 # 0xc55d4 26 12 Call Ringers
 en Call Ringers
@@ -162,6 +180,7 @@ es Tono Llamada
 it Suoneria
 sr Zvona-poziv
 fr Tonalites d appel
+zh Call Ringers
 
 # 0xc55f0 26 12 Keypad Tones
 en Keypad Tones
@@ -170,6 +189,7 @@ es Tono Teclas
 it Tono tasti
 sr Zvuk tastera
 fr Tonalites clavier
+zh Keypad Tones
 
 # 0xc560c 28 13 Volume Offset
 es Comp. Volumen
@@ -1243,6 +1263,7 @@ de R DCS
 es R DCS
 it R DCS
 fr R DCS
+zh R DCS
 
 # 0xef607 12 11 \bStart Mbox
 # 0xef614 10 9 Sys Inter
